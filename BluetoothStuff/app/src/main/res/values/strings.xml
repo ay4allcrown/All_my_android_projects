@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bluetooth Controller</string>
+    <string name="turn_on">TURN ON</string>
+    <string name="turn_off">TURN OFF</string>
+    <string name="set_visible">SET DISCOVERABLE</string>
+    <string name="paired_devices">SHOW PAIRED DEVICES</string>
+    <string name="bluetooth">BLUETOOTH</string>
+    <string name="already_turned_on">Already Turned on</string>
+    <string name="turned_on">Turned On</string>
+</resources>

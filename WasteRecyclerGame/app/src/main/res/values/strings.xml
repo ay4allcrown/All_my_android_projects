@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Waste Recycler Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="paper_basket_description">This basket holds papers</string>
+    <string name="glass_basket_description">This basket holds glasses</string>
+    <string name="metal_basket_description">This basket holds metals</string>
+    <string name="plastic_basket_descripition">This basket holds plastics</string>
+    <string name="waste_description">This waste should be placed in the appropriate basket.</string>
+    <string name="position_textview">Current position:\nX-cord: %1$d\nY-cord: %2$d</string>
+</resources>

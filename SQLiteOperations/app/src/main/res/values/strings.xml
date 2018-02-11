@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SQLite Operations</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_name">Enter name</string>
+    <string name="view_data_button_text">View Data</string>
+    <string name="save_button_text">Save</string>
+    <string name="current_name">Current Name</string>
+    <string name="new_name">New Name</string>
+    <string name="update_name_button_text">Update Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="enter_name_to_delete">Enter name to delete</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="delete_user">Delete User</string>
+    <string name="update_user_name">Update User Name</string>
+    <string name="add_view_users">Add / View Users</string>
+</resources>

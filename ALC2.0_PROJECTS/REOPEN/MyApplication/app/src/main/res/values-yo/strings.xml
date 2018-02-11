@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JUST JAVA</string>
+    <string name="chocolate">ṣokoleeti</string>
+    <string name="name_edittext_hint">Oruko</string>
+    <string name="order_button_text">Bere fun</string>
+    <string name="quantity">Opoiye</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="load_button_text">Load Spinner</string>
+</resources>

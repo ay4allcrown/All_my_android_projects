@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Using Notification Bar</string>
+    <string name="update">Update Notification</string>
+    <string name="cancel">Cancel Notification</string>
+    <string name="start">Start Notification</string>
+    <string name="edittext_hint">Text to show in notification</string>
+</resources>

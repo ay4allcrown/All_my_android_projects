@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CountDownTimer</string>
+    <string name="counter">Counter</string>
+    <string name="countleft">Count Left</string>
+    <string name="event_name">World cup 2K18</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="seconds">Seconds</string>
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivityFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/position_textview"
+        android:id="@+id/position_textView"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:id="@+id/paper_imageView"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/basket_paper"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/paper_basket_description"
+        android:layout_margin="@dimen/activity_horizontal_margin" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:id="@+id/glass_imageView"
+        android:layout_alignBottom="@+id/paper_imageView"
+        android:layout_toEndOf="@+id/paper_imageView"
+        android:src="@drawable/basket_glass"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/glass_basket_description"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:id="@+id/metal_imageView"
+        android:src="@drawable/basket_metal"
+        android:contentDescription="@string/metal_basket_description"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignTop="@+id/glass_imageView"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:id="@+id/plastic_imageView"
+        android:src="@drawable/basket_plastic"
+
+        android:contentDescription="@string/plastic_basket_descripition"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignTop="@+id/metal_imageView"
+        android:layout_toStartOf="@+id/metal_imageView" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:id="@+id/waste_imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/bottle_1"
+        android:contentDescription="@string/waste_description" />
+
+</RelativeLayout>
